@@ -26,4 +26,7 @@ public class StudentResponseDto {
 //    @Min(value = 1, message = "Age must be greater than 0")
     private int age;
 
+    private Long standardId;
+
+
 }
