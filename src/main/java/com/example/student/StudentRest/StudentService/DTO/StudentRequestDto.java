@@ -3,12 +3,14 @@ package com.example.student.StudentRest.StudentService.DTO;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class StudentRequestDto {
     @NotBlank(message = "Student Name is Required")
     private String name;
